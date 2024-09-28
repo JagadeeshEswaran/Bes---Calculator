@@ -12,17 +12,17 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 100svh;
 
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .calculatorContainer {
     background-color: aliceblue;
-    width: 400px;
-    height: 500px;
+    width: 300px;
+    height: 300px;
     border-radius: 8px;
     box-shadow: 4px 4px 100px whitesmoke;
 }
@@ -40,7 +40,7 @@ body {
 
 .buttonsContainer {
     height: auto;
-    min-height: 400px;
+    min-height: 300px;
     background: white;
     border-radius: 0 0 8px 8px;
     display: grid;
@@ -57,6 +57,15 @@ body {
 }
 
 button {
-    height: 80px;
-    width: 80px;
+    height: 50px;
+    width: 50px;
 }
+
+
+/* echo "# Bes---Calculator">>README.md 
+git init 
+git add README.md 
+git commit -m "first commit"
+git branch -M main 
+git remote add origin https: //github.com/JagadeeshEswaran/Bes---Calculator.git
+git push -u origin main */
